@@ -1,2 +1,3 @@
 # mdsolutions-feign-Client
-Producer and Consumer using Feign Client
+Dependency to test the application
+mdsolutions-eureka-loadbalancer , mdsolutions-feign-Client, mdsolutions-rest-service-provider
