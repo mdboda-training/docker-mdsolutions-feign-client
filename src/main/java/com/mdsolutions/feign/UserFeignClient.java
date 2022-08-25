@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.mdsolutions.dto.UserDto;
 
-@FeignClient(name = "mdsolutions-rest-service-provider",url="localhost:8088")
+@FeignClient(name = "mdsolutions-rest-service-provider")
 //@RibbonClient(name = "mdsolutions-rest-service-provider")
 //@EnableDiscoveryClient
 public interface UserFeignClient {
