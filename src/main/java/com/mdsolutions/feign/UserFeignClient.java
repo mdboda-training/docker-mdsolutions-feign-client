@@ -13,10 +13,10 @@ import com.mdsolutions.dto.UserDto;
 //@EnableDiscoveryClient
 public interface UserFeignClient {
 	
-	@GetMapping("/user/getUsers")
+	@GetMapping("/mdsolutions-rest-service-provider/user/getUsers")
 	public UserDto getUsers(@RequestParam Integer userId);
 
-	@GetMapping("/user/getAllUsers")
+	@GetMapping("/mdsolutions-rest-service-provider/user/getAllUsers")
 	public List<UserDto> getUsers();
 
 	/*

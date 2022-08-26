@@ -16,12 +16,12 @@ public class UserFeignClientController {
 	@Autowired
 	private UserFeignClient userFeignClient;
 	
-	@GetMapping("/feign/loadUser")
+	@GetMapping("/mdsolutions-feign-client/feign/loadUser")
 	public UserDto feignClientLoadUser(@RequestParam Integer userId) {
 		return userFeignClient.getUsers(userId);
 	}
 	
-	@GetMapping("/feign/loadAllUsers")
+	@GetMapping("/mdsolutions-feign-client/feign/loadAllUsers")
 	public List<UserDto> feignClientLoanAllUsers() {
 		return userFeignClient.getUsers();
 	}
