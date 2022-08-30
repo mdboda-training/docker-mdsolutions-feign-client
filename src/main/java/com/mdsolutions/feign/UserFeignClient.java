@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.mdsolutions.dto.UserDto;
 
-@FeignClient(name = "mdsolutions-rest-service-provider",url="localhost:8088")
+@FeignClient(name = "docker-mdsolutions-rest-service-provider")
 //@RibbonClient(name = "mdsolutions-rest-service-provider")
 //@EnableDiscoveryClient
 public interface UserFeignClient {
 	
-	@GetMapping("/user/getUsers")
+	@GetMapping("/docker-mdsolutions-rest-service-provider/user/getUsers")
 	public UserDto getUsers(@RequestParam Integer userId);
 
-	@GetMapping("/user/getAllUsers")
+	@GetMapping("/docker-mdsolutions-rest-service-provider/user/getAllUsers")
 	public List<UserDto> getUsers();
 
 	/*

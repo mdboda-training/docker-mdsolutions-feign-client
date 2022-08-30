@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.mdsolutions.feign")
 public class MdsolutionsFeignClientApplication {
 
 	public static void main(String[] args) {
