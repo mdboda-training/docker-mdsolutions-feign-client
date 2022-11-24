@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class MdsolutionsFeignClientApplication {
 
 	public static void main(String[] args) { 
-		// this line am adding from Browser
+		// this line am updating from Eclipse
 		SpringApplication.run(MdsolutionsFeignClientApplication.class, args);
 	}
 
