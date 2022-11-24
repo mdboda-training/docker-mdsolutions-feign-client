@@ -9,5 +9,4 @@ class MdsolutionsFeignClientApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
