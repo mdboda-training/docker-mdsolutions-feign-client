@@ -11,6 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class MdsolutionsFeignClientApplication {
 
 	public static void main(String[] args) { 
+		// this line am adding from Browser
 		SpringApplication.run(MdsolutionsFeignClientApplication.class, args);
 	}
 
